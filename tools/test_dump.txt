@@ -1,0 +1,2177 @@
+Operating system: Windows NT
+                  6.1.7601 Service Pack 1
+CPU: x86
+     GenuineIntel family 6 model 60 stepping 3
+     8 CPUs
+
+GPU: UNKNOWN
+
+Crash reason:  EXCEPTION_ACCESS_VIOLATION_READ
+Crash address: 0x0
+Process uptime: 30 seconds
+
+Thread 27 (crashed)
+ 0  0x0
+    eip = 0x00000000   esp = 0x0c7cff8c   ebp = 0x0c7cff94   ebx = 0x00000000
+    esi = 0x00000000   edi = 0x00000000   eax = 0x762a342b   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00010246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0c7cff8c 3d 34 2a 76 00 00 00 00 d4 ff 7c 0c 12 98 2e 77  =4*v......|....w
+    Possible instruction pointers:
+
+ 1  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0c7cff9c   ebp = 0x0c7cffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0c7cff9c 00 00 00 00 de 50 7f 7d 00 00 00 00 00 00 00 00  .....P.}........
+     0c7cffac 00 00 00 00 05 00 00 c0 4f 78 2c 76 4f 78 2c 76  ........Ox,vOx,v
+     0c7cffbc a0 ff 7c 0c d8 f9 7c 0c ff ff ff ff cd 4d 32 77  ..|...|......M2w
+     0c7cffcc 7a 69 2e 06 00 00 00 00 ec ff 7c 0c e5 97 2e 77  zi........|....w
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0c7cffdc   ebp = 0x0c7cffec
+    Found by: previous frame's frame pointer
+
+Thread 0
+ 0  ntdll.dll + 0x1fd91
+    eip = 0x772cfd91   esp = 0x0018fc5c   ebp = 0x0018fcc4   ebx = 0x00000000
+    esi = 0x0018fca0   edi = 0x00000000   eax = 0x00000001   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0018fc5c 91 fd 2c 77 97 3d e7 74 00 00 00 00 a0 fc 18 00  ..,w.=.t........
+     0018fc6c 24 29 09 f5 20 fd 18 00 b0 3b 2d 01 00 00 00 00  $).. ....;-.....
+     0018fc7c 24 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  $...............
+     0018fc8c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fc9c 00 00 00 00 f0 d8 ff ff ff ff ff ff 00 00 00 00  ................
+     0018fcac 6c fc 18 00 fb 01 00 00 ec fd 18 00 50 74 e9 74  l...........Pt.t
+     0018fcbc 48 5b f8 81 00 00 00 00 d4 fc 18 00 67 46 e7 74  H[..........gF.t
+    Possible instruction pointers:
+
+ 1  KERNELBASE.dll + 0x14667
+    eip = 0x74e74667   esp = 0x0018fccc   ebp = 0x0018fcd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fccc 01 00 00 00 00 00 00 00 e4 fc 18 00 ac 1f 6b 00  ..............k.
+    Possible instruction pointers:
+
+ 2  Taikou5.exe + 0x2b1fac
+    eip = 0x006b1fac   esp = 0x0018fcdc   ebp = 0x0018fce4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fcdc 01 00 00 00 b0 3b 2d 01 fc fc 18 00 5a 2d 6b 00  .....;-.....Z-k.
+    Possible instruction pointers:
+
+ 3  Taikou5.exe + 0x2b2d5a
+    eip = 0x006b2d5a   esp = 0x0018fcec   ebp = 0x0018fcfc
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fcec 20 fd 18 00 00 00 00 00 b0 3b 2d 01 00 00 00 00   ........;-.....
+     0018fcfc 14 fd 18 00 77 2e 6b 00                          ....w.k.        
+    Possible instruction pointers:
+
+ 4  Taikou5.exe + 0x2b2e77
+    eip = 0x006b2e77   esp = 0x0018fd04   ebp = 0x0018fd14
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fd04 20 fd 18 00 dc fd 18 00 e0 35 75 00 00 00 00 00   ........5u.....
+     0018fd14 38 fd 18 00 6e 80 5a 00                          8...n.Z.        
+    Possible instruction pointers:
+
+ 5  Taikou5.exe + 0x1a806e
+    eip = 0x005a806e   esp = 0x0018fd1c   ebp = 0x0018fd38
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fd1c 20 fd 18 00 00 00 00 00 ff ff ff 7f db 00 39 06   .............9.
+     0018fd2c f9 01 00 00 15 02 00 00 d9 b3 54 00 f8 fd 18 00  ..........T.....
+     0018fd3c e3 b3 54 00                                      ..T.            
+    Possible instruction pointers:
+
+ 6  Taikou5.exe + 0x14b3e3
+    eip = 0x0054b3e3   esp = 0x0018fd40   ebp = 0x0018fdf8
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fd40 20 fe 4f 09 e0 35 75 00 88 7b 70 00 00 00 00 00   .O..5u..{p.....
+     0018fd50 00 00 00 00 20 03 00 00 58 02 00 00 00 00 00 00  .... ...X.......
+     0018fd60 90 1d 69 0b 00 00 00 00 80 7b 70 00 00 00 00 00  ..i......{p.....
+     0018fd70 b0 24 69 0b b0 19 69 0b 01 00 00 00 0f 00 00 00  .$i...i.........
+     0018fd80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fd90 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fda0 ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fdb0 d8 2c 69 0b 90 1d 69 0b d8 2c 69 0b 88 ff 47 09  .,i...i..,i...G.
+     0018fdc0 78 02 48 09 68 05 48 09 58 08 48 09 48 0b 48 09  x.H.h.H.X.H.H.H.
+     0018fdd0 c8 2f 69 0b b8 32 69 0b a8 35 69 0b 90 1d 69 0b  ./i..2i..5i...i.
+     0018fde0 d0 1b 69 0b d0 1c 69 0b 00 00 00 00 78 ff 18 00  ..i...i.....x...
+     0018fdf0 e1 a6 6c 00 00 00 00 00 08 fe 18 00 1a c4 52 00  ..l...........R.
+    Possible instruction pointers:
+
+ 7  Taikou5.exe + 0x12c41a
+    eip = 0x0052c41a   esp = 0x0018fe00   ebp = 0x0018fe08
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fe00 01 00 00 00 e0 35 75 00 20 fe 18 00 a3 c5 52 00  .....5u. .....R.
+    Possible instruction pointers:
+
+ 8  Taikou5.exe + 0x12c5a3
+    eip = 0x0052c5a3   esp = 0x0018fe10   ebp = 0x0018fe20
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fe10 1c fe 18 00 58 fe 4f 09 00 00 00 00 00 00 00 00  ....X.O.........
+     0018fe20 60 fe 18 00 06 6a 6a 00                          `....jj.        
+    Possible instruction pointers:
+
+ 9  Taikou5.exe + 0x2a6a06
+    eip = 0x006a6a06   esp = 0x0018fe28   ebp = 0x0018fe60
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fe28 00 00 00 00 45 12 2a 76 00 e0 fd 7e 00 00 00 00  ....E.*v...~....
+     0018fe38 00 00 00 00 20 03 00 00 58 02 00 00 00 00 00 00  .... ...X.......
+     0018fe48 00 00 00 00 20 03 00 00 58 02 00 00 20 03 00 00  .... ...X... ...
+     0018fe58 58 02 00 00 00 00 00 00 88 ff 18 00 ab fa 6b 00  X.............k.
+    Possible instruction pointers:
+
+10  Taikou5.exe + 0x2bfaab
+    eip = 0x006bfaab   esp = 0x0018fe68   ebp = 0x0018ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018fe68 00 00 40 00 00 00 00 00 0e 7f 33 01 05 00 00 00  ..@.......3.....
+     0018fe78 94 00 00 00 06 00 00 00 01 00 00 00 b1 1d 00 00  ................
+     0018fe88 02 00 00 00 53 65 72 76 69 63 65 20 50 61 63 6b  ....Service Pack
+     0018fe98 20 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00   1..............
+     0018fea8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018feb8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fec8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fed8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fee8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018fef8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018ff08 3b f9 6b 00 00 00 00 00 00 00 00 00 00 e0 fd 7e  ;.k............~
+     0018ff18 00 00 00 00 01 00 00 00 0e 7f 33 01 44 00 00 00  ..........3.D...
+     0018ff28 c0 2a 33 01 50 9f 38 01 50 24 33 01 00 00 00 00  .*3.P.8.P$3.....
+     0018ff38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0018ff48 00 00 00 00 00 00 00 00 01 00 00 00 05 00 00 00  ................
+     0018ff58 00 00 00 00 ff ff ff ff ff ff ff ff ff ff ff ff  ................
+     0018ff68 00 00 00 00 00 00 00 00 78 fe 18 00 48 00 00 00  ........x...H...
+     0018ff78 c4 ff 18 00 9c 4a 6c 00 58 07 71 00 00 00 00 00  .....Jl.X.q.....
+     0018ff88 94 ff 18 00 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+11  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0018ff90   ebp = 0x0018ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018ff90 00 e0 fd 7e d4 ff 18 00 12 98 2e 77              ...~.......w    
+    Possible instruction pointers:
+
+12  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0018ff9c   ebp = 0x0018ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0018ff9c 00 e0 fd 7e de 50 1b 71 00 00 00 00 00 00 00 00  ...~.P.q........
+     0018ffac 00 e0 fd 7e 00 00 00 00 4f 7c 12 77 00 00 00 00  ...~....O|.w....
+     0018ffbc a0 ff 18 00 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0018ffcc 7a 69 2e 06 00 00 00 00 ec ff 18 00 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+13  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0018ffdc   ebp = 0x0018ffec
+    Found by: previous frame's frame pointer
+
+Thread 1
+ 0  ntdll.dll + 0x21f46
+    eip = 0x772d1f46   esp = 0x04bffe38   ebp = 0x04bfff88   ebx = 0x00000007
+    esi = 0x00000002   edi = 0x013a5910   eax = 0x00000006   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     04bffe38 46 1f 2d 77 7e fa 2f 77 60 01 00 00 ec fe bf 04  F.-w~./w`.......
+     04bffe48 82 50 bc 75 00 00 00 00 00 00 00 00 10 59 3a 01  .P.u.........Y:.
+     04bffe58 58 fe cf 04 80 01 3b 77 60 fe cf 04 4c 59 3a 01  X.....;w`...LY:.
+     04bffe68 00 00 00 00 08 22 00 00 10 59 3a 01 00 00 00 00  ....."...Y:.....
+     04bffe78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffe88 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffe98 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffea8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffeb8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffec8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffed8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffee8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bffef8 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     04bfff08 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     04bfff18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bfff28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bfff38 00 00 00 00 00 00 00 00 88 ac 3b 01 50 96 38 01  ..........;.P.8.
+     04bfff48 00 00 00 00 07 00 00 00 00 00 00 00 01 00 00 00  ................
+     04bfff58 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04bfff68 00 00 00 01 00 01 01 01 48 fe bf 04 00 00 00 00  ........H.......
+     04bfff78 c4 ff bf 04 cd 4d 32 77 52 74 2e 06 05 00 00 00  .....M2wRt......
+     04bfff88 94 ff bf 04 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x04bfff90   ebp = 0x04bfff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04bfff90 10 59 3a 01 d4 ff bf 04 12 98 2e 77              .Y:........w    
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x04bfff9c   ebp = 0x04bfffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04bfff9c 10 59 3a 01 de 50 bc 75 00 00 00 00 00 00 00 00  .Y:..P.u........
+     04bfffac 10 59 3a 01 00 00 00 00 00 00 00 00 00 00 00 00  .Y:.............
+     04bfffbc a0 ff bf 04 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     04bfffcc 7a 69 2e 06 00 00 00 00 ec ff bf 04 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 3  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x04bfffdc   ebp = 0x04bfffec
+    Found by: previous frame's frame pointer
+
+Thread 2
+ 0  ntdll.dll + 0x21f46
+    eip = 0x772d1f46   esp = 0x04cffe38   ebp = 0x04cfff88   ebx = 0x00000007
+    esi = 0x00000002   edi = 0x013a5910   eax = 0x00000002   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     04cffe38 46 1f 2d 77 7e fa 2f 77 50 01 00 00 ec fe cf 04  F.-w~./wP.......
+     04cffe48 82 50 cc 75 00 00 00 00 00 00 00 00 10 59 3a 01  .P.u.........Y:.
+     04cffe58 58 fe 89 0a 58 fe bf 04 4c 59 3a 01 60 fe bf 04  X...X...LY:.`...
+     04cffe68 00 00 00 00 80 36 00 00 10 59 3a 01 00 00 00 00  .....6...Y:.....
+     04cffe78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffe88 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffe98 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffea8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffeb8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffec8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffed8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffee8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cffef8 00 00 00 00 00 00 00 00 07 00 00 00 00 00 00 00  ................
+     04cfff08 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     04cfff18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cfff28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cfff38 00 00 00 00 00 00 00 00 b8 15 3c 01 88 9b 3d 01  ..........<...=.
+     04cfff48 00 00 00 00 07 00 00 00 00 00 00 00 01 00 00 00  ................
+     04cfff58 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04cfff68 00 00 00 01 00 01 01 01 48 fe cf 04 00 00 00 00  ........H.......
+     04cfff78 c4 ff cf 04 cd 4d 32 77 52 74 2e 06 05 00 00 00  .....M2wRt......
+     04cfff88 94 ff cf 04 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x04cfff90   ebp = 0x04cfff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04cfff90 10 59 3a 01 d4 ff cf 04 12 98 2e 77              .Y:........w    
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x04cfff9c   ebp = 0x04cfffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04cfff9c 10 59 3a 01 de 50 cc 75 00 00 00 00 00 00 00 00  .Y:..P.u........
+     04cfffac 10 59 3a 01 00 00 00 00 00 00 00 00 00 00 00 00  .Y:.............
+     04cfffbc a0 ff cf 04 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     04cfffcc 7a 69 2e 06 00 00 00 00 ec ff cf 04 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 3  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x04cfffdc   ebp = 0x04cfffec
+    Found by: previous frame's frame pointer
+
+Thread 3
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x04dffdd0   ebp = 0x04dffe6c   ebx = 0x04dffe20
+    esi = 0x00000002   edi = 0x00000000   eax = 0x000001dc   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     04dffdd0 5d 01 2d 77 75 17 e7 74 02 00 00 00 20 fe df 04  ].-wu..t.... ...
+     04dffde0 01 00 00 00 00 00 00 00 00 00 00 00 8c 2b ce f1  .............+..
+     04dffdf0 02 00 00 00 98 fe df 04 94 fe df 04 24 00 00 00  ............$...
+     04dffe00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04dffe10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04dffe20 cc 01 00 00 dc 01 00 00 cc 66 99 00 cc 66 cc 00  .........f...f..
+     04dffe30 cc 66 ff 00 cc 99 00 00 cc 99 33 00 cc 99 66 00  .f........3...f.
+     04dffe40 cc 99 99 00 cc 99 cc 00 cc 99 ff 00 02 00 00 00  ................
+     04dffe50 00 00 00 00 ec fd df 04 cc cc 99 00 c4 ff df 04  ................
+     04dffe60 50 74 e9 74 f8 58 f8 81 00 00 00 00 b4 fe df 04  Pt.t.X..........
+     04dffe70 fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x04dffe74   ebp = 0x04dffeb4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dffe74 20 fe df 04 94 fe df 04 00 00 00 00 ff ff ff ff   ...............
+     04dffe84 00 00 00 00 02 00 00 00 00 00 00 00 dc fe df 04  ................
+     04dffe94 cc 01 00 00 dc 01 00 00 ff 33 66 00 ff 33 99 00  .........3f..3..
+     04dffea4 ff 33 cc 00 ff 33 ff 00 ff 66 00 00 ff 66 33 00  .3...3...f...f3.
+     04dffeb4 08 ff df 04 b2 08 bd 74                          .......t        
+    Possible instruction pointers:
+
+ 2  user32.dll + 0x208b2
+    eip = 0x74bd08b2   esp = 0x04dffebc   ebp = 0x04dfff08
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dffebc 02 00 00 00 00 e0 fd 7e 00 00 00 00 ff ff ff ff  .......~........
+     04dffecc 00 00 00 00 3f b8 bd 74 44 67 67 70 00 00 00 00  ....?..tDggp....
+     04dffedc cc 01 00 00 dc 01 00 00 ff cc 66 00 ff cc 99 00  ..........f.....
+     04dffeec ff cc cc 00 ff cc ff 00 ff ff 00 00 ff ff 33 00  ..............3.
+     04dffefc ff ff 66 00 00 00 00 00 00 00 00 00 24 ff df 04  ..f.........$...
+     04dfff0c b1 0b bd 74                                      ...t            
+    Possible instruction pointers:
+
+ 3  user32.dll + 0x20bb1
+    eip = 0x74bd0bb1   esp = 0x04dfff10   ebp = 0x04dfff24
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dfff10 dc 01 00 00 68 ff df 04 ff ff ff ff ff 04 00 00  ....h...........
+     04dfff20 00 00 00 00 70 ff df 04 d9 79 54 70              ....p....yTp    
+    Possible instruction pointers:
+
+ 4  GdiPlus.dll + 0x479d9
+    eip = 0x705479d9   esp = 0x04dfff2c   ebp = 0x04dfff70
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dfff2c 01 00 00 00 68 ff df 04 00 00 00 00 ff ff ff ff  ....h...........
+     04dfff3c ff 04 00 00 00 00 00 00 18 22 31 05 18 22 31 05  ........."1.."1.
+     04dfff4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     04dfff5c 00 00 00 00 00 00 00 00 00 00 00 00 cc 01 00 00  ................
+     04dfff6c 00 00 00 00 88 ff df 04 f8 78 54 70              .........xTp    
+    Possible instruction pointers:
+
+ 5  GdiPlus.dll + 0x478f8
+    eip = 0x705478f8   esp = 0x04dfff78   ebp = 0x04dfff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dfff78 00 00 00 00 00 00 00 00 00 00 00 00 18 22 31 05  ............."1.
+     04dfff88 94 ff df 04 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 6  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x04dfff90   ebp = 0x04dfff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dfff90 18 22 31 05 d4 ff df 04 12 98 2e 77              ."1........w    
+    Possible instruction pointers:
+
+ 7  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x04dfff9c   ebp = 0x04dfffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     04dfff9c 18 22 31 05 de 50 dc 75 00 00 00 00 00 00 00 00  ."1..P.u........
+     04dfffac 18 22 31 05 00 00 00 00 00 00 00 00 00 00 00 00  ."1.............
+     04dfffbc a0 ff df 04 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     04dfffcc 7a 69 2e 06 00 00 00 00 ec ff df 04 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 8  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x04dfffdc   ebp = 0x04dfffec
+    Found by: previous frame's frame pointer
+
+Thread 4
+ 0  ntdll.dll + 0x1fd91
+    eip = 0x772cfd91   esp = 0x0525fed4   ebp = 0x0525ff3c   ebx = 0x74bc7819
+    esi = 0x0525ff18   edi = 0x00000000   eax = 0x00000001   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0525fed4 91 fd 2c 77 97 3d e7 74 00 00 00 00 18 ff 25 05  ..,w.=.t......%.
+     0525fee4 dc 2a 34 f0 02 06 bd 74 f7 b3 ed 0f 19 78 bc 74  .*4....t.....x.t
+     0525fef4 24 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  $...............
+     0525ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0525ff14 00 00 00 00 f0 d8 ff ff ff ff ff ff 00 00 00 00  ................
+     0525ff24 e4 fe 25 05 00 00 00 00 c4 ff 25 05 50 74 e9 74  ..%.......%.Pt.t
+     0525ff34 48 5b f8 81 00 00 00 00 4c ff 25 05 67 46 e7 74  H[......L.%.gF.t
+    Possible instruction pointers:
+
+ 1  KERNELBASE.dll + 0x14667
+    eip = 0x74e74667   esp = 0x0525ff44   ebp = 0x0525ff4c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0525ff44 01 00 00 00 00 00 00 00 8b 78 bc 74 3e 12 e1 0f  .........x.t>...
+    Possible instruction pointers:
+     *(0x0525ff50) = 0x0fe1123e <wkeRunMessageLoopEx(bool const *)> [web_window.cpp : 49 + 0x0]
+
+ 2  tkhack.dll!wkeRunMessageLoopEx(bool const *) [web_window.cpp : 48 + 0x8]
+    eip = 0x0fe1123e   esp = 0x0525ff54   ebp = 0x74bc788b
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0525ff54 01 00 00 00 00 00 00 00 00 00 00 00 94 ff 25 05  ..............%.
+     0525ff64 00 00 00 00 38 17 29 00 00 00 00 00 a1 c3 00 00  ....8.).........
+     0525ff74 a1 c3 00 00 db 00 39 06 32 04 00 00 fe 02 00 00  ......9.2.......
+     0525ff84 a7 4f e1 0f                                      .O..            
+    Possible instruction pointers:
+     *(0x0525ff84) = 0x0fe14fa7 <static unsigned long _webThread(void *)> [web_window.cpp : 904 + 0x11]
+
+ 3  tkhack.dll!static unsigned long _webThread(void *) [web_window.cpp : 904 + 0x11]
+    eip = 0x0fe14fa7   esp = 0x0525ff88   ebp = 0x0525ff94   ebx = 0x00000000
+    Found by: call frame info
+
+    Stack contents:
+     0525ff88 f7 b3 ed 0f 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0525ff90   ebp = 0x0525ff94
+    Found by: call frame info
+
+    Stack contents:
+     0525ff90 00 00 00 00 d4 ff 25 05 12 98 2e 77              ......%....w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0525ff9c   ebp = 0x0525ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0525ff9c 00 00 00 00 de 50 26 74 00 00 00 00 00 00 00 00  .....P&t........
+     0525ffac 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0525ffbc a0 ff 25 05 00 00 00 00 ff ff ff ff cd 4d 32 77  ..%..........M2w
+     0525ffcc 7a 69 2e 06 00 00 00 00 ec ff 25 05 e5 97 2e 77  zi........%....w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0525ffdc   ebp = 0x0525ffec
+    Found by: previous frame's frame pointer
+
+Thread 5
+ 0  ntdll.dll + 0x1fd91
+    eip = 0x772cfd91   esp = 0x0654fdbc   ebp = 0x0654fe24   ebx = 0x00000000
+    esi = 0x0654fe00   edi = 0x00000000   eax = 0x00000001   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0654fdbc 91 fd 2c 77 97 3d e7 74 00 00 00 00 00 fe 54 06  ..,w.=.t......T.
+     0654fdcc c4 2b 45 f3 00 00 00 00 10 00 00 00 00 00 00 00  .+E.............
+     0654fddc 24 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  $...............
+     0654fdec 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654fdfc 00 00 00 00 00 8f fd ff ff ff ff ff 00 00 00 00  ................
+     0654fe0c cc fd 54 06 38 17 29 00 c4 ff 54 06 50 74 e9 74  ..T.8.)...T.Pt.t
+     0654fe1c 48 5b f8 81 00 00 00 00 34 fe 54 06 67 46 e7 74  H[......4.T.gF.t
+    Possible instruction pointers:
+
+ 1  KERNELBASE.dll + 0x14667
+    eip = 0x74e74667   esp = 0x0654fe2c   ebp = 0x0654fe34
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0654fe2c 10 00 00 00 00 00 00 00 88 ff 54 06 85 07 47 05  ..........T...G.
+    Possible instruction pointers:
+
+ 2  mb.dll + 0x150785
+    eip = 0x05470785   esp = 0x0654fe3c   ebp = 0x0654ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0654fe3c 10 00 00 00 00 00 00 00 63 00 64 00 64 00 00 00  ........c.d.d...
+     0654fe4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654fe5c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654fe6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654fe7c 00 00 00 00 00 00 00 00 01 04 01 04 bc 00 00 00  ................
+     0654fe8c a0 00 7e 00 00 00 00 00 00 00 00 00 00 00 00 00  ..~.............
+     0654fe9c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654feac 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654febc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654fecc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654fedc 00 00 00 00 00 00 00 00 00 00 00 00 00 00 60 00  ..............`.
+     0654feec 20 00 00 00 80 07 00 00 38 04 00 00 00 00 00 00   .......8.......
+     0654fefc 3c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  <...............
+     0654ff0c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654ff1c 00 00 00 00 68 00 00 00 00 00 00 00 00 00 00 00  ....h...........
+     0654ff2c 80 07 00 00 38 04 00 00 00 00 00 00 00 00 00 00  ....8...........
+     0654ff3c 80 07 00 00 04 04 00 00 01 00 00 00 5c 00 5c 00  ............\.\.
+     0654ff4c 2e 00 5c 00 44 00 49 00 53 00 50 00 4c 00 41 00  ..\.D.I.S.P.L.A.
+     0654ff5c 59 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00  Y.1.............
+     0654ff6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654ff7c 00 00 00 00 00 00 00 00 00 00 00 00 94 ff 54 06  ..............T.
+     0654ff8c 3d 34 2a 76                                      =4*v            
+    Possible instruction pointers:
+
+ 3  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0654ff90   ebp = 0x0654ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0654ff90 00 00 00 00 d4 ff 54 06 12 98 2e 77              ......T....w    
+    Possible instruction pointers:
+
+ 4  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0654ff9c   ebp = 0x0654ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0654ff9c 00 00 00 00 de 50 57 77 00 00 00 00 00 00 00 00  .....PWw........
+     0654ffac 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0654ffbc a0 ff 54 06 00 00 00 00 ff ff ff ff cd 4d 32 77  ..T..........M2w
+     0654ffcc 7a 69 2e 06 00 00 00 00 ec ff 54 06 e5 97 2e 77  zi........T....w
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0654ffdc   ebp = 0x0654ffec
+    Found by: previous frame's frame pointer
+
+Thread 6
+ 0  ntdll.dll + 0x1fd91
+    eip = 0x772cfd91   esp = 0x066cfefc   ebp = 0x066cff64   ebx = 0x04a382e8
+    esi = 0x066cff40   edi = 0x00000000   eax = 0x055a95a7   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     066cfefc 91 fd 2c 77 97 3d e7 74 00 00 00 00 40 ff 6c 06  ..,w.=.t....@.l.
+     066cff0c 84 2a 7d f3 00 00 00 00 e8 82 a3 04 e8 82 a3 04  .*}.............
+     066cff1c 24 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  $...............
+     066cff2c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     066cff3c 00 00 00 00 00 8f fd ff ff ff ff ff 00 00 00 00  ................
+     066cff4c 0c ff 6c 06 00 00 00 00 c4 ff 6c 06 50 74 e9 74  ..l.......l.Pt.t
+     066cff5c 48 5b f8 81 00 00 00 00 74 ff 6c 06 67 46 e7 74  H[......t.l.gF.t
+    Possible instruction pointers:
+
+ 1  KERNELBASE.dll + 0x14667
+    eip = 0x74e74667   esp = 0x066cff6c   ebp = 0x066cff74
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     066cff6c 10 00 00 00 00 00 00 00 88 ff 6c 06 ec 95 5a 05  ..........l...Z.
+    Possible instruction pointers:
+
+ 2  mb.dll + 0x2895ec
+    eip = 0x055a95ec   esp = 0x066cff7c   ebp = 0x066cff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     066cff7c 10 00 00 00 00 00 00 00 00 00 00 00 94 ff 6c 06  ..............l.
+     066cff8c 3d 34 2a 76                                      =4*v            
+    Possible instruction pointers:
+
+ 3  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x066cff90   ebp = 0x066cff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     066cff90 e8 82 a3 04 d4 ff 6c 06 12 98 2e 77              ......l....w    
+    Possible instruction pointers:
+
+ 4  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x066cff9c   ebp = 0x066cffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     066cff9c e8 82 a3 04 de 50 6f 77 00 00 00 00 00 00 00 00  .....Pow........
+     066cffac e8 82 a3 04 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     066cffbc a0 ff 6c 06 00 00 00 00 ff ff ff ff cd 4d 32 77  ..l..........M2w
+     066cffcc 7a 69 2e 06 00 00 00 00 ec ff 6c 06 e5 97 2e 77  zi........l....w
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x066cffdc   ebp = 0x066cffec
+    Found by: previous frame's frame pointer
+
+Thread 7
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x06bcfed4   ebp = 0x06bcff40   ebx = 0x00000000
+    esi = 0x00000244   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     06bcfed4 d1 f8 2c 77 29 16 e7 74 44 02 00 00 00 00 00 00  ..,w)..tD.......
+     06bcfee4 00 00 00 00 a0 2a ad f3 00 00 00 00 44 02 00 00  .....*......D...
+     06bcfef4 e8 a5 ab 04 24 00 00 00 01 00 00 00 00 00 00 00  ....$...........
+     06bcff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     06bcff14 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     06bcff24 00 00 00 00 e8 fe bc 06 00 00 00 00 c4 ff bc 06  ................
+     06bcff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff bc 06  Pt.t.Y......X...
+     06bcff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x06bcff48   ebp = 0x06bcff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06bcff48 44 02 00 00 ff ff ff ff 00 00 00 00 e8 a5 ab 04  D...............
+     06bcff58 6c ff bc 06 48 11 2a 76                          l...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x06bcff60   ebp = 0x06bcff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06bcff60 44 02 00 00 ff ff ff ff 00 00 00 00 88 ff bc 06  D...............
+     06bcff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x06bcff74   ebp = 0x06bcff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06bcff74 44 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  D...............
+     06bcff84 54 fd 46 05 94 ff bc 06 3d 34 2a 76              T.F.....=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x06bcff90   ebp = 0x06bcff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06bcff90 e8 a5 ab 04 d4 ff bc 06 12 98 2e 77              ...........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x06bcff9c   ebp = 0x06bcffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06bcff9c e8 a5 ab 04 de 50 bf 77 00 00 00 00 00 00 00 00  .....P.w........
+     06bcffac e8 a5 ab 04 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     06bcffbc a0 ff bc 06 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     06bcffcc 7a 69 2e 06 00 00 00 00 ec ff bc 06 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x06bcffdc   ebp = 0x06bcffec
+    Found by: previous frame's frame pointer
+
+Thread 8
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x06e0fed4   ebp = 0x06e0ff40   ebx = 0x00000000
+    esi = 0x0000024c   edi = 0x00000000   eax = 0x00000001   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     06e0fed4 d1 f8 2c 77 29 16 e7 74 4c 02 00 00 00 00 00 00  ..,w)..tL.......
+     06e0fee4 00 00 00 00 a0 2a f1 f3 00 00 00 00 4c 02 00 00  .....*......L...
+     06e0fef4 80 79 ad 04 24 00 00 00 01 00 00 00 00 00 00 00  .y..$...........
+     06e0ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     06e0ff14 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     06e0ff24 00 00 00 00 e8 fe e0 06 00 00 00 00 c4 ff e0 06  ................
+     06e0ff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff e0 06  Pt.t.Y......X...
+     06e0ff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x06e0ff48   ebp = 0x06e0ff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06e0ff48 4c 02 00 00 ff ff ff ff 00 00 00 00 80 79 ad 04  L............y..
+     06e0ff58 6c ff e0 06 48 11 2a 76                          l...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x06e0ff60   ebp = 0x06e0ff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06e0ff60 4c 02 00 00 ff ff ff ff 00 00 00 00 88 ff e0 06  L...............
+     06e0ff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x06e0ff74   ebp = 0x06e0ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06e0ff74 4c 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  L...............
+     06e0ff84 54 fd 46 05 94 ff e0 06 3d 34 2a 76              T.F.....=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x06e0ff90   ebp = 0x06e0ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06e0ff90 80 79 ad 04 d4 ff e0 06 12 98 2e 77              .y.........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x06e0ff9c   ebp = 0x06e0ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06e0ff9c 80 79 ad 04 de 50 e3 77 00 00 00 00 00 00 00 00  .y...P.w........
+     06e0ffac 80 79 ad 04 00 00 00 00 00 00 00 00 00 00 00 00  .y..............
+     06e0ffbc a0 ff e0 06 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     06e0ffcc 7a 69 2e 06 00 00 00 00 ec ff e0 06 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x06e0ffdc   ebp = 0x06e0ffec
+    Found by: previous frame's frame pointer
+
+Thread 9
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x06f4fed4   ebp = 0x06f4ff40   ebx = 0x00000000
+    esi = 0x00000254   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     06f4fed4 d1 f8 2c 77 29 16 e7 74 54 02 00 00 00 00 00 00  ..,w)..tT.......
+     06f4fee4 00 00 00 00 a0 2a e5 f3 00 00 00 00 54 02 00 00  .....*......T...
+     06f4fef4 50 7c ad 04 24 00 00 00 01 00 00 00 00 00 00 00  P|..$...........
+     06f4ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     06f4ff14 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     06f4ff24 00 00 00 00 e8 fe f4 06 00 00 00 00 c4 ff f4 06  ................
+     06f4ff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff f4 06  Pt.t.Y......X...
+     06f4ff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x06f4ff48   ebp = 0x06f4ff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06f4ff48 54 02 00 00 ff ff ff ff 00 00 00 00 50 7c ad 04  T...........P|..
+     06f4ff58 6c ff f4 06 48 11 2a 76                          l...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x06f4ff60   ebp = 0x06f4ff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06f4ff60 54 02 00 00 ff ff ff ff 00 00 00 00 88 ff f4 06  T...............
+     06f4ff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x06f4ff74   ebp = 0x06f4ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06f4ff74 54 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  T...............
+     06f4ff84 54 fd 46 05 94 ff f4 06 3d 34 2a 76              T.F.....=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x06f4ff90   ebp = 0x06f4ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06f4ff90 50 7c ad 04 d4 ff f4 06 12 98 2e 77              P|.........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x06f4ff9c   ebp = 0x06f4ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     06f4ff9c 50 7c ad 04 de 50 f7 77 00 00 00 00 00 00 00 00  P|...P.w........
+     06f4ffac 50 7c ad 04 00 00 00 00 00 00 00 00 00 00 00 00  P|..............
+     06f4ffbc a0 ff f4 06 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     06f4ffcc 7a 69 2e 06 00 00 00 00 ec ff f4 06 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x06f4ffdc   ebp = 0x06f4ffec
+    Found by: previous frame's frame pointer
+
+Thread 10
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x0708fed4   ebp = 0x0708ff40   ebx = 0x00000000
+    esi = 0x0000025c   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0708fed4 d1 f8 2c 77 29 16 e7 74 5c 02 00 00 00 00 00 00  ..,w)..t\.......
+     0708fee4 00 00 00 00 a0 2a 19 f2 00 00 00 00 5c 02 00 00  .....*......\...
+     0708fef4 00 7d ad 04 24 00 00 00 01 00 00 00 00 00 00 00  .}..$...........
+     0708ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0708ff14 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     0708ff24 00 00 00 00 e8 fe 08 07 00 00 00 00 c4 ff 08 07  ................
+     0708ff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff 08 07  Pt.t.Y......X...
+     0708ff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x0708ff48   ebp = 0x0708ff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0708ff48 5c 02 00 00 ff ff ff ff 00 00 00 00 00 7d ad 04  \............}..
+     0708ff58 6c ff 08 07 48 11 2a 76                          l...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x0708ff60   ebp = 0x0708ff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0708ff60 5c 02 00 00 ff ff ff ff 00 00 00 00 88 ff 08 07  \...............
+     0708ff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x0708ff74   ebp = 0x0708ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0708ff74 5c 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  \...............
+     0708ff84 54 fd 46 05 94 ff 08 07 3d 34 2a 76              T.F.....=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0708ff90   ebp = 0x0708ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0708ff90 00 7d ad 04 d4 ff 08 07 12 98 2e 77              .}.........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0708ff9c   ebp = 0x0708ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0708ff9c 00 7d ad 04 de 50 0b 76 00 00 00 00 00 00 00 00  .}...P.v........
+     0708ffac 00 7d ad 04 00 00 00 00 00 00 00 00 00 00 00 00  .}..............
+     0708ffbc a0 ff 08 07 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0708ffcc 7a 69 2e 06 00 00 00 00 ec ff 08 07 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0708ffdc   ebp = 0x0708ffec
+    Found by: previous frame's frame pointer
+
+Thread 11
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x071cfed4   ebp = 0x071cff40   ebx = 0x00000000
+    esi = 0x00000268   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     071cfed4 d1 f8 2c 77 29 16 e7 74 68 02 00 00 00 00 00 00  ..,w)..th.......
+     071cfee4 00 00 00 00 a0 2a 0d f2 00 00 00 00 68 02 00 00  .....*......h...
+     071cfef4 78 9e ad 04 24 00 00 00 01 00 00 00 00 00 00 00  x...$...........
+     071cff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     071cff14 00 00 00 00 00 00 00 00 78 9e ad 04 c7 ca 47 d3  ........x.....G.
+     071cff24 00 00 00 00 e8 fe 1c 07 b0 9e ad 04 c4 ff 1c 07  ................
+     071cff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff 1c 07  Pt.t.Y......X...
+     071cff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x071cff48   ebp = 0x071cff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     071cff48 68 02 00 00 ff ff ff ff 00 00 00 00 78 9e ad 04  h...........x...
+     071cff58 6c ff 1c 07 48 11 2a 76                          l...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x071cff60   ebp = 0x071cff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     071cff60 68 02 00 00 ff ff ff ff 00 00 00 00 88 ff 1c 07  h...............
+     071cff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x071cff74   ebp = 0x071cff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     071cff74 68 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  h...............
+     071cff84 54 fd 46 05 94 ff 1c 07 3d 34 2a 76              T.F.....=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x071cff90   ebp = 0x071cff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     071cff90 78 9e ad 04 d4 ff 1c 07 12 98 2e 77              x..........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x071cff9c   ebp = 0x071cffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     071cff9c 78 9e ad 04 de 50 1f 76 00 00 00 00 00 00 00 00  x....P.v........
+     071cffac 78 9e ad 04 00 00 00 00 00 00 00 00 00 00 00 00  x...............
+     071cffbc a0 ff 1c 07 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     071cffcc 7a 69 2e 06 00 00 00 00 ec ff 1c 07 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x071cffdc   ebp = 0x071cffec
+    Found by: previous frame's frame pointer
+
+Thread 12
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x0733fed4   ebp = 0x0733ff40   ebx = 0x00000000
+    esi = 0x00000274   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0733fed4 d1 f8 2c 77 29 16 e7 74 74 02 00 00 00 00 00 00  ..,w)..tt.......
+     0733fee4 00 00 00 00 a0 2a 22 f2 00 00 00 00 74 02 00 00  .....*".....t...
+     0733fef4 70 fe af 04 24 00 00 00 01 00 00 00 00 00 00 00  p...$...........
+     0733ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0733ff14 00 00 00 00 00 00 00 00 70 fe af 04 2e 36 29 d3  ........p....6).
+     0733ff24 00 00 00 00 e8 fe 33 07 a8 fe af 04 c4 ff 33 07  ......3.......3.
+     0733ff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff 33 07  Pt.t.Y......X.3.
+     0733ff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x0733ff48   ebp = 0x0733ff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0733ff48 74 02 00 00 ff ff ff ff 00 00 00 00 70 fe af 04  t...........p...
+     0733ff58 6c ff 33 07 48 11 2a 76                          l.3.H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x0733ff60   ebp = 0x0733ff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0733ff60 74 02 00 00 ff ff ff ff 00 00 00 00 88 ff 33 07  t.............3.
+     0733ff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x0733ff74   ebp = 0x0733ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0733ff74 74 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  t...............
+     0733ff84 54 fd 46 05 94 ff 33 07 3d 34 2a 76              T.F...3.=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0733ff90   ebp = 0x0733ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0733ff90 70 fe af 04 d4 ff 33 07 12 98 2e 77              p.....3....w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0733ff9c   ebp = 0x0733ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0733ff9c 70 fe af 04 de 50 30 76 00 00 00 00 00 00 00 00  p....P0v........
+     0733ffac 70 fe af 04 00 00 00 00 00 00 00 00 00 00 00 00  p...............
+     0733ffbc a0 ff 33 07 00 00 00 00 ff ff ff ff cd 4d 32 77  ..3..........M2w
+     0733ffcc 7a 69 2e 06 00 00 00 00 ec ff 33 07 e5 97 2e 77  zi........3....w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0733ffdc   ebp = 0x0733ffec
+    Found by: previous frame's frame pointer
+
+Thread 13
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x0747fed4   ebp = 0x0747ff40   ebx = 0x00000000
+    esi = 0x0000027c   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0747fed4 d1 f8 2c 77 29 16 e7 74 7c 02 00 00 00 00 00 00  ..,w)..t|.......
+     0747fee4 00 00 00 00 a0 2a 56 f2 00 00 00 00 7c 02 00 00  .....*V.....|...
+     0747fef4 20 ff af 04 24 00 00 00 01 00 00 00 00 00 00 00   ...$...........
+     0747ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0747ff14 00 00 00 00 00 00 00 00 20 ff af 04 59 36 29 d3  ........ ...Y6).
+     0747ff24 00 00 00 00 e8 fe 47 07 58 ff af 04 c4 ff 47 07  ......G.X.....G.
+     0747ff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff 47 07  Pt.t.Y......X.G.
+     0747ff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x0747ff48   ebp = 0x0747ff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0747ff48 7c 02 00 00 ff ff ff ff 00 00 00 00 20 ff af 04  |........... ...
+     0747ff58 6c ff 47 07 48 11 2a 76                          l.G.H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x0747ff60   ebp = 0x0747ff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0747ff60 7c 02 00 00 ff ff ff ff 00 00 00 00 88 ff 47 07  |.............G.
+     0747ff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x0747ff74   ebp = 0x0747ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0747ff74 7c 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  |...............
+     0747ff84 54 fd 46 05 94 ff 47 07 3d 34 2a 76              T.F...G.=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0747ff90   ebp = 0x0747ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0747ff90 20 ff af 04 d4 ff 47 07 12 98 2e 77               .....G....w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0747ff9c   ebp = 0x0747ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0747ff9c 20 ff af 04 de 50 44 76 00 00 00 00 00 00 00 00   ....PDv........
+     0747ffac 20 ff af 04 00 00 00 00 00 00 00 00 00 00 00 00   ...............
+     0747ffbc a0 ff 47 07 00 00 00 00 ff ff ff ff cd 4d 32 77  ..G..........M2w
+     0747ffcc 7a 69 2e 06 00 00 00 00 ec ff 47 07 e5 97 2e 77  zi........G....w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0747ffdc   ebp = 0x0747ffec
+    Found by: previous frame's frame pointer
+
+Thread 14
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x076ffed4   ebp = 0x076fff40   ebx = 0x00000000
+    esi = 0x00000284   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     076ffed4 d1 f8 2c 77 29 16 e7 74 84 02 00 00 00 00 00 00  ..,w)..t........
+     076ffee4 00 00 00 00 a0 2a 7e f2 00 00 00 00 84 02 00 00  .....*~.........
+     076ffef4 d8 bd 78 06 24 00 00 00 01 00 00 00 00 00 00 00  ..x.$...........
+     076fff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     076fff14 00 00 00 00 00 00 00 00 d8 bd 78 06 11 5b 29 d3  ..........x..[).
+     076fff24 00 00 00 00 e8 fe 6f 07 10 be 78 06 c4 ff 6f 07  ......o...x...o.
+     076fff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff 6f 07  Pt.t.Y......X.o.
+     076fff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x076fff48   ebp = 0x076fff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     076fff48 84 02 00 00 ff ff ff ff 00 00 00 00 d8 bd 78 06  ..............x.
+     076fff58 6c ff 6f 07 48 11 2a 76                          l.o.H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x076fff60   ebp = 0x076fff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     076fff60 84 02 00 00 ff ff ff ff 00 00 00 00 88 ff 6f 07  ..............o.
+     076fff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x076fff74   ebp = 0x076fff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     076fff74 84 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  ................
+     076fff84 54 fd 46 05 94 ff 6f 07 3d 34 2a 76              T.F...o.=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x076fff90   ebp = 0x076fff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     076fff90 d8 bd 78 06 d4 ff 6f 07 12 98 2e 77              ..x...o....w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x076fff9c   ebp = 0x076fffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     076fff9c d8 bd 78 06 de 50 6c 76 00 00 00 00 00 00 00 00  ..x..Plv........
+     076fffac d8 bd 78 06 00 00 00 00 00 00 00 00 00 00 00 00  ..x.............
+     076fffbc a0 ff 6f 07 00 00 00 00 ff ff ff ff cd 4d 32 77  ..o..........M2w
+     076fffcc 7a 69 2e 06 00 00 00 00 ec ff 6f 07 e5 97 2e 77  zi........o....w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x076fffdc   ebp = 0x076fffec
+    Found by: previous frame's frame pointer
+
+Thread 15
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x0783fed4   ebp = 0x0783ff40   ebx = 0x00000000
+    esi = 0x000002a0   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0783fed4 d1 f8 2c 77 29 16 e7 74 a0 02 00 00 00 00 00 00  ..,w)..t........
+     0783fee4 00 00 00 00 a0 2a 92 f2 00 00 00 00 a0 02 00 00  .....*..........
+     0783fef4 c0 f6 af 04 24 00 00 00 01 00 00 00 00 00 00 00  ....$...........
+     0783ff04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0783ff14 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     0783ff24 00 00 00 00 e8 fe 83 07 00 00 00 00 c4 ff 83 07  ................
+     0783ff34 50 74 e9 74 18 59 f8 81 00 00 00 00 58 ff 83 07  Pt.t.Y......X...
+     0783ff44 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x0783ff48   ebp = 0x0783ff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0783ff48 a0 02 00 00 ff ff ff ff 00 00 00 00 c0 f6 af 04  ................
+     0783ff58 6c ff 83 07 48 11 2a 76                          l...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x0783ff60   ebp = 0x0783ff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0783ff60 a0 02 00 00 ff ff ff ff 00 00 00 00 88 ff 83 07  ................
+     0783ff70 92 06 47 05                                      ..G.            
+    Possible instruction pointers:
+
+ 3  mb.dll + 0x150692
+    eip = 0x05470692   esp = 0x0783ff74   ebp = 0x0783ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0783ff74 a0 02 00 00 ff ff ff ff 00 00 00 00 00 00 00 00  ................
+     0783ff84 54 fd 46 05 94 ff 83 07 3d 34 2a 76              T.F.....=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0783ff90   ebp = 0x0783ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0783ff90 c0 f6 af 04 d4 ff 83 07 12 98 2e 77              ...........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0783ff9c   ebp = 0x0783ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0783ff9c c0 f6 af 04 de 50 80 76 00 00 00 00 00 00 00 00  .....P.v........
+     0783ffac c0 f6 af 04 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0783ffbc a0 ff 83 07 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0783ffcc 7a 69 2e 06 00 00 00 00 ec ff 83 07 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0783ffdc   ebp = 0x0783ffec
+    Found by: previous frame's frame pointer
+
+Thread 16
+ 0  ntdll.dll + 0x21f46
+    eip = 0x772d1f46   esp = 0x0a89fe38   ebp = 0x0a89ff88   ebx = 0x00000007
+    esi = 0x00000002   edi = 0x013a59a0   eax = 0x00000007   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0a89fe38 46 1f 2d 77 7e fa 2f 77 d0 03 00 00 ec fe 89 0a  F.-w~./w........
+     0a89fe48 82 50 8a 7b 00 00 00 00 00 00 00 00 a0 59 3a 01  .P.{.........Y:.
+     0a89fe58 58 fe 99 0a 58 fe cf 04 60 fe 99 0a dc 59 3a 01  X...X...`....Y:.
+     0a89fe68 00 00 00 00 18 21 00 00 a0 59 3a 01 00 00 00 00  .....!...Y:.....
+     0a89fe78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89fe88 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89fe98 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89fea8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89feb8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89fec8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89fed8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89fee8 00 00 00 00 58 78 3d 01 00 00 00 00 00 00 00 00  ....Xx=.........
+     0a89fef8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89ff08 58 78 3d 01 00 00 00 00 01 00 00 00 00 00 00 00  Xx=.............
+     0a89ff18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89ff28 00 00 00 00 08 00 00 00 00 00 00 00 08 00 00 00  ................
+     0a89ff38 00 00 00 00 00 00 00 00 e0 d3 bd 06 00 00 00 00  ................
+     0a89ff48 00 00 00 00 07 00 00 00 00 00 00 00 01 00 00 00  ................
+     0a89ff58 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a89ff68 00 00 00 01 00 01 01 01 48 fe 89 0a 00 00 00 00  ........H.......
+     0a89ff78 c4 ff 89 0a cd 4d 32 77 52 74 2e 06 05 00 00 00  .....M2wRt......
+     0a89ff88 94 ff 89 0a 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0a89ff90   ebp = 0x0a89ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0a89ff90 a0 59 3a 01 d4 ff 89 0a 12 98 2e 77              .Y:........w    
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0a89ff9c   ebp = 0x0a89ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0a89ff9c a0 59 3a 01 de 50 8a 7b 00 00 00 00 00 00 00 00  .Y:..P.{........
+     0a89ffac a0 59 3a 01 00 00 00 00 00 00 00 00 00 00 00 00  .Y:.............
+     0a89ffbc a0 ff 89 0a 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0a89ffcc 7a 69 2e 06 00 00 00 00 ec ff 89 0a e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 3  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0a89ffdc   ebp = 0x0a89ffec
+    Found by: previous frame's frame pointer
+
+Thread 17
+ 0  ntdll.dll + 0x21f46
+    eip = 0x772d1f46   esp = 0x0a99fe38   ebp = 0x0a99ff88   ebx = 0x00000007
+    esi = 0x00000002   edi = 0x013a59a0   eax = 0x00000007   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0a99fe38 46 1f 2d 77 7e fa 2f 77 d0 03 00 00 ec fe 99 0a  F.-w~./w........
+     0a99fe48 82 50 9a 7b 00 00 00 00 00 00 00 00 a0 59 3a 01  .P.{.........Y:.
+     0a99fe58 80 01 3b 77 58 fe 89 0a dc 59 3a 01 60 fe 89 0a  ..;wX....Y:.`...
+     0a99fe68 00 00 00 00 9c 37 00 00 a0 59 3a 01 00 00 00 00  .....7...Y:.....
+     0a99fe78 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99fe88 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99fe98 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99fea8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99feb8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99fec8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99fed8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99fee8 00 00 00 00 58 78 3d 01 00 00 00 00 00 00 00 00  ....Xx=.........
+     0a99fef8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99ff08 58 78 3d 01 00 00 00 00 01 00 00 00 00 00 00 00  Xx=.............
+     0a99ff18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99ff28 00 00 00 00 08 00 00 00 00 00 00 00 08 00 00 00  ................
+     0a99ff38 00 00 00 00 00 00 00 00 48 d4 bd 06 00 00 00 00  ........H.......
+     0a99ff48 00 00 00 00 07 00 00 00 00 00 00 00 01 00 00 00  ................
+     0a99ff58 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0a99ff68 00 00 00 01 00 01 01 01 48 fe 99 0a 00 00 00 00  ........H.......
+     0a99ff78 c4 ff 99 0a cd 4d 32 77 52 74 2e 06 05 00 00 00  .....M2wRt......
+     0a99ff88 94 ff 99 0a 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0a99ff90   ebp = 0x0a99ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0a99ff90 a0 59 3a 01 d4 ff 99 0a 12 98 2e 77              .Y:........w    
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0a99ff9c   ebp = 0x0a99ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0a99ff9c a0 59 3a 01 de 50 9a 7b 00 00 00 00 00 00 00 00  .Y:..P.{........
+     0a99ffac a0 59 3a 01 00 00 00 00 00 00 00 00 00 00 00 00  .Y:.............
+     0a99ffbc a0 ff 99 0a 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0a99ffcc 7a 69 2e 06 00 00 00 00 ec ff 99 0a e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 3  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0a99ffdc   ebp = 0x0a99ffec
+    Found by: previous frame's frame pointer
+
+Thread 18
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x0aa9fdf4   ebp = 0x0aa9ff88   ebx = 0x772ff504
+    esi = 0x06bf4948   edi = 0x00000000   eax = 0x772ff563   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0aa9fdf4 5d 01 2d 77 8f f6 2f 77 03 00 00 00 78 49 bf 06  ].-w../w....xI..
+     0aa9fe04 01 00 00 00 01 00 00 00 00 00 00 00 82 50 aa 7b  .............P.{
+     0aa9fe14 00 00 00 00 00 00 00 00 48 49 bf 06 00 00 00 00  ........HI......
+     0aa9fe24 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe34 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe44 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe54 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe84 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fe94 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fea4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9feb4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fec4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fed4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fee4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9fef4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0aa9ff04 00 00 00 00 00 00 00 00 00 00 00 00 d7 9a c8 22  ..............."
+     0aa9ff14 53 b9 d8 01 1c 58 e7 03 f3 00 00 00 00 00 00 00  S....X..........
+     0aa9ff24 00 00 00 00 10 e8 10 00 00 00 00 00 01 00 00 00  ................
+     0aa9ff34 48 49 bf 06 00 00 00 00 00 00 00 00 00 00 00 00  HI..............
+     0aa9ff44 00 00 00 00 00 00 00 00 d7 9a c8 22 53 b9 d8 01  ..........."S...
+     0aa9ff54 0c 70 d6 03 f3 00 00 00 00 00 00 00 00 00 00 00  .p..............
+     0aa9ff64 00 00 00 00 00 00 00 00 00 00 00 00 10 fe a9 0a  ................
+     0aa9ff74 00 00 00 00 c4 ff a9 0a cd 4d 32 77 f2 74 2e 06  .........M2w.t..
+     0aa9ff84 02 00 00 00 94 ff a9 0a 3d 34 2a 76              ........=4*v    
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0aa9ff90   ebp = 0x0aa9ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0aa9ff90 00 00 00 00 d4 ff a9 0a 12 98 2e 77              ...........w    
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0aa9ff9c   ebp = 0x0aa9ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0aa9ff9c 48 49 bf 06 de 50 aa 7b 00 00 00 00 00 00 00 00  HI...P.{........
+     0aa9ffac 48 49 bf 06 00 00 00 00 00 00 00 00 00 00 00 00  HI..............
+     0aa9ffbc a0 ff a9 0a 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0aa9ffcc 7a 69 2e 06 00 00 00 00 ec ff a9 0a e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 3  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0aa9ffdc   ebp = 0x0aa9ffec
+    Found by: previous frame's frame pointer
+
+Thread 19
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x09fffd20   ebp = 0x09fffdbc   ebx = 0x09fffd70
+    esi = 0x00000001   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     09fffd20 5d 01 2d 77 75 17 e7 74 01 00 00 00 70 fd ff 09  ].-wu..t....p...
+     09fffd30 01 00 00 00 00 00 00 00 00 00 00 00 5c 28 ee fc  ............\(..
+     09fffd40 01 00 00 00 e4 fd ff 09 e4 fd ff 09 24 00 00 00  ............$...
+     09fffd50 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     09fffd60 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     09fffd70 90 03 00 00 00 00 00 00 78 20 76 76 f4 01 33 01  ........x vv..3.
+     09fffd80 11 00 4c 01 80 4b bf 06 64 e4 2d 77 1a 51 fc 78  ..L..K..d.-w.Q.x
+     09fffd90 00 00 00 00 9c 01 33 01 00 00 33 01 01 00 00 00  ......3...3.....
+     09fffda0 00 00 00 00 3c fd ff 09 74 40 22 fc c4 ff ff 09  ....<...t@".....
+     09fffdb0 50 74 e9 74 f8 58 f8 81 00 00 00 00 04 fe ff 09  Pt.t.X..........
+     09fffdc0 fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x09fffdc4   ebp = 0x09fffe04
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09fffdc4 70 fd ff 09 e4 fd ff 09 00 00 00 00 ff ff ff ff  p...............
+     09fffdd4 00 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00  ................
+     09fffde4 90 03 00 00 f0 c7 33 01 e8 50 bf 06 d0 ca 33 01  ......3..P....3.
+     09fffdf4 01 27 2e 77 8c fd ff 09 00 00 00 00 c0 fe ff 09  .'.w............
+     09fffe04 20 fe ff 09 8c 26 2a 76                           ....&*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x1268c
+    eip = 0x762a268c   esp = 0x09fffe0c   ebp = 0x09fffe20
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09fffe0c 01 00 00 00 00 e0 fd 7e 00 00 00 00 ff ff ff ff  .......~........
+     09fffe1c 00 00 00 00 38 fe ff 09 da 12 81 74              ....8......t    
+    Possible instruction pointers:
+
+ 3  dsound.dll + 0x12da
+    eip = 0x748112da   esp = 0x09fffe28   ebp = 0x09fffe38
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09fffe28 01 00 00 00 58 fe ff 09 00 00 00 00 ff ff ff ff  ....X...........
+     09fffe38 58 ff ff 09 13 2e 81 74                          X......t        
+    Possible instruction pointers:
+
+ 4  dsound.dll + 0x2e13
+    eip = 0x74812e13   esp = 0x09fffe40   ebp = 0x09ffff58
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09fffe40 01 00 00 00 ff ff ff ff 00 00 00 00 58 fe ff 09  ............X...
+     09fffe50 78 0d 2e 01 78 0d 2e 01 90 03 00 00 f8 fe ff 09  x...x...........
+     09fffe60 24 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00  $...............
+     09fffe70 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     09fffe80 00 00 00 00 90 03 00 00 b5 4e f6 fc 98 fa ff 09  .........N......
+     09fffe90 08 00 14 00 08 ff ff 09 55 7f 19 75 00 00 00 00  ........U..u....
+     09fffea0 00 00 33 01 00 00 00 00 00 00 00 00 f8 25 75 76  ..3..........%uv
+     09fffeb0 01 00 00 00 02 01 00 00 50 fe ff 09 18 ff ff 09  ........P.......
+     09fffec0 c4 ff ff 09 50 74 e9 74 f8 58 f8 81 fe ff ff ff  ....Pt.t.X......
+     09fffed0 e0 17 e7 74 fc 19 2a 76 84 fe ff 09 f8 fe ff 09  ...t..*v........
+     09fffee0 00 00 00 00 00 00 00 00 00 00 00 00 78 0d 2e 01  ............x...
+     09fffef0 00 00 00 00 78 0d 2e 01 90 03 00 00 d0 2a ee fc  ....x........*..
+     09ffff00 00 00 00 00 00 00 00 00 78 0d 2e 01 a9 0e 76 76  ........x.....vv
+     09ffff10 96 99 7c 83 fe ff ff ff 34 ff ff 09 8c 26 2a 76  ..|.....4....&*v
+     09ffff20 01 00 00 00 00 e0 fd 7e 00 00 00 00 00 00 00 00  .......~........
+     09ffff30 00 00 00 00 4c ff ff 09 da 12 81 74 01 00 00 00  ....L......t....
+     09ffff40 70 ff ff 09 00 00 00 00 00 00 00 00 64 ff ff 09  p...........d...
+     09ffff50 ba 12 81 74 01 00 00 00 88 ff ff 09 99 e4 83 74  ...t...........t
+    Possible instruction pointers:
+
+ 5  dsound.dll + 0x2e499
+    eip = 0x7483e499   esp = 0x09ffff60   ebp = 0x09ffff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09ffff60 ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     09ffff70 ae 29 81 74 00 00 00 00 78 0d 2e 01 e9 e4 83 74  .).t....x......t
+     09ffff80 00 00 00 00 ae e4 83 74 94 ff ff 09 3d 34 2a 76  .......t....=4*v
+    Possible instruction pointers:
+
+ 6  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x09ffff90   ebp = 0x09ffff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09ffff90 78 0d 2e 01 d4 ff ff 09 12 98 2e 77              x..........w    
+    Possible instruction pointers:
+
+ 7  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x09ffff9c   ebp = 0x09ffffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     09ffff9c 78 0d 2e 01 de 50 fc 78 00 00 00 00 00 00 00 00  x....P.x........
+     09ffffac 78 0d 2e 01 00 00 00 00 00 00 00 00 00 00 00 00  x...............
+     09ffffbc a0 ff ff 09 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     09ffffcc 7a 69 2e 06 00 00 00 00 ec ff ff 09 e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 8  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x09ffffdc   ebp = 0x09ffffec
+    Found by: previous frame's frame pointer
+
+Thread 20
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x0afafda0   ebp = 0x0afafe3c   ebx = 0x0afafdf0
+    esi = 0x00000001   edi = 0x00000000   eax = 0x00000414   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0afafda0 5d 01 2d 77 75 17 e7 74 01 00 00 00 f0 fd fa 0a  ].-wu..t........
+     0afafdb0 01 00 00 00 01 00 00 00 00 00 00 00 dc 2b eb ff  .............+..
+     0afafdc0 01 00 00 00 64 fe fa 0a 64 fe fa 0a 24 00 00 00  ....d...d...$...
+     0afafdd0 01 00 00 00 00 00 00 00 00 00 00 00 30 00 00 00  ............0...
+     0afafde0 ff ff ff ff ff ff ff ff ab 16 e7 74 00 00 00 00  ...........t....
+     0afafdf0 14 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0afafe00 68 52 bf 06 00 00 00 00 08 04 00 00 82 17 23 00  hR............#.
+     0afafe10 4c fe fa 0a 54 6e bc 74 70 ed 79 01 01 00 00 00  L...Tn.tp.y.....
+     0afafe20 00 00 00 00 bc fd fa 0a 18 00 00 00 c4 ff fa 0a  ................
+     0afafe30 50 74 e9 74 f8 58 f8 81 00 00 00 00 84 fe fa 0a  Pt.t.X..........
+     0afafe40 fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x0afafe44   ebp = 0x0afafe84
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0afafe44 f0 fd fa 0a 64 fe fa 0a 00 00 00 00 ff ff ff ff  ....d...........
+     0afafe54 01 00 00 00 01 00 00 00 00 00 00 00 ac fe fa 0a  ................
+     0afafe64 14 04 00 00 00 00 00 00 08 04 00 00 00 00 00 00  ................
+     0afafe74 68 52 bf 06 90 13 4e 49 4d 62 35 77 00 00 00 00  hR....NIMb5w....
+     0afafe84 d8 fe fa 0a b2 08 bd 74                          .......t        
+    Possible instruction pointers:
+
+ 2  user32.dll + 0x208b2
+    eip = 0x74bd08b2   esp = 0x0afafe8c   ebp = 0x0afafed8
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0afafe8c 01 00 00 00 00 e0 fd 7e 00 00 00 00 ff ff ff ff  .......~........
+     0afafe9c 01 00 00 00 00 00 00 00 02 06 bd 74 68 14 3c 01  ...........th.<.
+     0afafeac 14 04 00 00 99 07 bd 74 00 ff fa 0a 00 00 00 00  .......t........
+     0afafebc 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00  ................
+     0afafecc 00 00 00 00 00 00 00 00 01 00 00 00 80 ff fa 0a  ................
+     0afafedc 01 21 f0 68                                      .!.h            
+    Possible instruction pointers:
+
+ 3  MMDevAPI.dll + 0x2101
+    eip = 0x68f02101   esp = 0x0afafee0   ebp = 0x0afaff80
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0afafee0 14 04 00 00 00 00 00 00 ff ff ff ff ff 04 00 00  ................
+     0afafef0 06 00 00 00 00 00 00 00 00 00 00 00 68 14 3c 01  ............h.<.
+     0afaff00 82 17 23 00 07 04 00 00 00 00 00 00 00 00 00 00  ..#.............
+     0afaff10 f6 9f 38 06 8e 02 00 00 56 02 00 00 00 00 00 00  ..8.....V.......
+     0afaff20 0f 22 f0 68 00 00 00 00 00 00 00 00 00 00 f0 68  .".h...........h
+     0afaff30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0afaff40 f8 21 f0 68 01 00 00 00 ed c1 00 00 01 00 00 00  .!.h............
+     0afaff50 70 1b bd 06 01 00 00 00 00 00 00 00 20 00 00 00  p........... ...
+     0afaff60 05 00 00 00 00 00 00 00 04 ad 94 69 ef 93 d0 11  ...........i....
+     0afaff70 a3 cc 00 a0 c9 22 31 96 00 00 00 00 ca 11 94 fc  ....."1.........
+     0afaff80 88 ff fa 0a ee 27 f0 68                          .....'.h        
+    Possible instruction pointers:
+
+ 4  MMDevAPI.dll + 0x27ee
+    eip = 0x68f027ee   esp = 0x0afaff88   ebp = 0x0afaff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0afaff88 94 ff fa 0a 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 5  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0afaff90   ebp = 0x0afaff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0afaff90 68 14 3c 01 d4 ff fa 0a 12 98 2e 77              h.<........w    
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0afaff9c   ebp = 0x0afaffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0afaff9c 68 14 3c 01 de 50 f9 7b 00 00 00 00 00 00 00 00  h.<..P.{........
+     0afaffac 68 14 3c 01 00 00 00 00 00 00 00 00 00 00 00 00  h.<.............
+     0afaffbc a0 ff fa 0a 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0afaffcc 7a 69 2e 06 00 00 00 00 ec ff fa 0a e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 7  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0afaffdc   ebp = 0x0afaffec
+    Found by: previous frame's frame pointer
+
+Thread 21
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x0b0afcec   ebp = 0x0b0afd88   ebx = 0x0b0afd3c
+    esi = 0x00000001   edi = 0x0b0afd5c   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0b0afcec 5d 01 2d 77 75 17 e7 74 01 00 00 00 3c fd 0a 0b  ].-wu..t....<...
+     0b0afcfc 01 00 00 00 00 00 00 00 5c fd 0a 0b 68 28 1b fe  ........\...h(..
+     0b0afd0c 01 00 00 00 b0 fd 0a 0b b0 fd 0a 0b 24 00 00 00  ............$...
+     0b0afd1c 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b0afd2c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b0afd3c 30 04 00 00 00 00 33 01 10 37 c0 06 10 37 c0 06  0.....3..7...7..
+     0b0afd4c 2c 00 00 00 22 00 10 00 e3 fa 00 80 5d 01 2d 77  ,...".......].-w
+     0b0afd5c c0 b4 b3 ff ff ff ff ff 64 e4 2d 77 01 00 00 00  ........d.-w....
+     0b0afd6c 00 00 00 00 08 fd 0a 0b 18 00 00 00 c4 ff 0a 0b  ................
+     0b0afd7c 50 74 e9 74 f8 58 f8 81 00 00 00 00 d0 fd 0a 0b  Pt.t.X..........
+     0b0afd8c fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x0b0afd90   ebp = 0x0b0afdd0
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0afd90 3c fd 0a 0b b0 fd 0a 0b 00 00 00 00 f4 01 00 00  <...............
+     0b0afda0 00 00 00 00 01 00 00 00 00 00 00 00 01 00 00 00  ................
+     0b0afdb0 30 04 00 00 00 00 00 00 18 00 00 00 b8 78 0f 0b  0............x..
+     0b0afdc0 00 00 00 00 d8 78 0f 0b c8 fa 0b 0b e4 fb 0b 0b  .....x..........
+     0b0afdd0 ec fd 0a 0b 8c 26 2a 76                          .....&*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x1268c
+    eip = 0x762a268c   esp = 0x0b0afdd8   ebp = 0x0b0afdec
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0afdd8 01 00 00 00 00 e0 fd 7e 00 00 00 00 f4 01 00 00  .......~........
+     0b0afde8 00 00 00 00 04 fe 0a 0b da 12 81 74              ...........t    
+    Possible instruction pointers:
+
+ 3  dsound.dll + 0x12da
+    eip = 0x748112da   esp = 0x0b0afdf4   ebp = 0x0b0afe04
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0afdf4 01 00 00 00 24 fe 0a 0b 00 00 00 00 f4 01 00 00  ....$...........
+     0b0afe04 24 ff 0a 0b 13 2e 81 74                          $......t        
+    Possible instruction pointers:
+
+ 4  dsound.dll + 0x2e13
+    eip = 0x74812e13   esp = 0x0b0afe0c   ebp = 0x0b0aff24
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0afe0c 01 00 00 00 f4 01 00 00 00 00 00 00 24 fe 0a 0b  ............$...
+     0b0afe1c 00 00 00 00 3c 08 2e 01 30 04 00 00 ff ff ff ff  ....<...0.......
+     0b0afe2c 00 00 00 00 00 00 00 00 5d 01 2d 77 75 17 e7 74  ........].-wu..t
+     0b0afe3c 01 00 00 00 84 fe 0a 0b 01 00 00 00 00 00 00 00  ................
+     0b0afe4c e0 17 e7 74 30 2b 1b fe 01 00 00 00 f8 fe 0a 0b  ...t0+..........
+     0b0afe5c f8 fe 0a 0b 24 00 00 00 01 00 00 00 00 00 00 00  ....$...........
+     0b0afe6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b0afe7c 00 00 00 00 00 00 00 00 30 04 00 00 00 00 00 00  ........0.......
+     0b0afe8c 18 03 10 0b a4 fe 0a 0b ac 2a 81 74 00 00 2e 01  .........*.t....
+     0b0afe9c 00 00 00 00 18 03 10 0b 00 00 00 00 00 00 00 00  ................
+     0b0afeac 18 03 10 0b 01 00 00 00 02 01 00 00 50 fe 0a 0b  ............P...
+     0b0afebc f0 fe 0a 0b c4 ff 0a 0b 50 74 e9 74 f8 58 f8 81  ........Pt.t.X..
+     0b0afecc fe ff ff ff e0 17 e7 74 fc 19 2a 76 84 fe 0a 0b  .......t..*v....
+     0b0afedc f8 fe 0a 0b 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b0afeec 3c 08 2e 01 00 00 00 00 3c 08 2e 01 30 04 00 00  <.......<...0...
+     0b0afefc 30 ff 0a 0b 5c 30 81 74 28 ff 0a 0b e0 08 2e 01  0...\0.t(.......
+     0b0aff0c 08 00 00 00 00 00 00 00 00 00 00 00 34 ff 0a 0b  ............4...
+     0b0aff1c 8c 26 2a 76 01 00 00 00 6c ff 0a 0b 94 2d 81 74  .&*v....l....-.t
+    Possible instruction pointers:
+
+ 5  dsound.dll + 0x2d94
+    eip = 0x74812d94   esp = 0x0b0aff2c   ebp = 0x0b0aff6c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0aff2c f4 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b0aff3c 3c 08 2e 01 3c 08 2e 01 00 00 00 00 00 00 00 00  <...<...........
+     0b0aff4c 64 ff 0a 0b ba 12 81 74 01 00 00 00 00 00 00 00  d......t........
+     0b0aff5c 00 00 00 00 70 ff 0a 0b 88 ff 0a 0b 0d 71 03 fe  ....p........q..
+     0b0aff6c 88 ff 0a 0b ae 29 81 74                          .....).t        
+    Possible instruction pointers:
+
+ 6  dsound.dll + 0x29ae
+    eip = 0x748129ae   esp = 0x0b0aff74   ebp = 0x0b0aff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0aff74 00 00 00 00 3c 08 2e 01 e9 e4 83 74 00 00 00 00  ....<......t....
+     0b0aff84 ae e4 83 74 94 ff 0a 0b 3d 34 2a 76              ...t....=4*v    
+    Possible instruction pointers:
+
+ 7  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0b0aff90   ebp = 0x0b0aff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0aff90 3c 08 2e 01 d4 ff 0a 0b 12 98 2e 77              <..........w    
+    Possible instruction pointers:
+
+ 8  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0b0aff9c   ebp = 0x0b0affd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b0aff9c 3c 08 2e 01 de 50 09 7a 00 00 00 00 00 00 00 00  <....P.z........
+     0b0affac 3c 08 2e 01 00 00 00 00 00 00 00 00 00 00 00 00  <...............
+     0b0affbc a0 ff 0a 0b 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0b0affcc 7a 69 2e 06 00 00 00 00 ec ff 0a 0b e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 9  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0b0affdc   ebp = 0x0b0affec
+    Found by: previous frame's frame pointer
+
+Thread 22
+ 0  ntdll.dll + 0x21e1e
+    eip = 0x772d1e1e   esp = 0x0b2eff58   ebp = 0x0b2eff88   ebx = 0x00000000
+    esi = 0x06bf84d8   edi = 0x00000400   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0b2eff58 1e 1e 2d 77 52 a0 30 77 10 00 00 00 00 00 00 00  ..-wR.0w........
+     0b2eff68 00 00 00 00 d8 84 bf 06 00 04 00 00 84 ff 2e 0b  ................
+     0b2eff78 00 00 00 00 00 00 00 00 00 00 00 00 b2 01 00 00  ................
+     0b2eff88 94 ff 2e 0b 3d 34 2a 76                          ....=4*v        
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0b2eff90   ebp = 0x0b2eff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b2eff90 00 00 00 00 d4 ff 2e 0b 12 98 2e 77              ...........w    
+    Possible instruction pointers:
+
+ 2  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0b2eff9c   ebp = 0x0b2effd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b2eff9c 00 00 00 00 de 50 2d 7a 00 00 00 00 00 00 00 00  .....P-z........
+     0b2effac 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b2effbc a0 ff 2e 0b 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0b2effcc 7a 69 2e 06 00 00 00 00 ec ff 2e 0b e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 3  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0b2effdc   ebp = 0x0b2effec
+    Found by: previous frame's frame pointer
+
+Thread 23
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x0b42fe44   ebp = 0x0b42fee0   ebx = 0x0b42fe94
+    esi = 0x00000002   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0b42fe44 5d 01 2d 77 75 17 e7 74 02 00 00 00 94 fe 42 0b  ].-wu..t......B.
+     0b42fe54 01 00 00 00 00 00 00 00 00 00 00 00 00 2b 53 fe  .............+S.
+     0b42fe64 02 00 00 00 0c ff 42 0b 08 ff 42 0b 24 00 00 00  ......B...B.$...
+     0b42fe74 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b42fe84 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b42fe94 50 04 00 00 54 04 00 00 00 17 d0 07 18 d5 bd 06  P...T...........
+     0b42fea4 68 b5 0b 0b 00 c9 90 00 00 00 00 00 00 c9 90 00  h...............
+     0b42feb4 00 00 00 00 e0 01 00 00 e4 fe 42 0b 02 00 00 00  ..........B.....
+     0b42fec4 00 00 00 00 60 fe 42 0b e0 01 00 00 c4 ff 42 0b  ....`.B.......B.
+     0b42fed4 50 74 e9 74 f8 58 f8 81 00 00 00 00 28 ff 42 0b  Pt.t.X......(.B.
+     0b42fee4 fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x0b42fee8   ebp = 0x0b42ff28
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b42fee8 94 fe 42 0b 08 ff 42 0b 00 00 00 00 ff ff ff ff  ..B...B.........
+     0b42fef8 00 00 00 00 1c b0 0b 0b 10 b0 0b 0b 00 00 00 00  ................
+     0b42ff08 50 04 00 00 54 04 00 00 00 00 00 00 24 ff 42 0b  P...T.......$.B.
+     0b42ff18 57 3b 81 74 14 0e 2e 01 00 00 00 00 30 ff 42 0b  W;.t........0.B.
+     0b42ff28 44 ff 42 0b 8c 26 2a 76                          D.B..&*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x1268c
+    eip = 0x762a268c   esp = 0x0b42ff30   ebp = 0x0b42ff44
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b42ff30 02 00 00 00 00 e0 fd 7e 00 00 00 00 ff ff ff ff  .......~........
+     0b42ff40 00 00 00 00 74 ff 42 0b 80 42 81 74              ....t.B..B.t    
+    Possible instruction pointers:
+
+ 3  dsound.dll + 0x4280
+    eip = 0x74814280   esp = 0x0b42ff4c   ebp = 0x0b42ff74
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b42ff4c 02 00 00 00 2c b0 0b 0b 00 00 00 00 ff ff ff ff  ....,...........
+     0b42ff5c 28 b0 0b 0b 1c b0 0b 0b 32 14 2a 76 00 53 07 00  (.......2.*v.S..
+     0b42ff6c ff ff ff ff 01 00 00 00 88 ff 42 0b c3 4f 81 74  ..........B..O.t
+    Possible instruction pointers:
+
+ 4  dsound.dll + 0x4fc3
+    eip = 0x74814fc3   esp = 0x0b42ff7c   ebp = 0x0b42ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b42ff7c 00 00 00 00 00 00 00 00 1c b0 0b 0b 94 ff 42 0b  ..............B.
+     0b42ff8c 3d 34 2a 76                                      =4*v            
+    Possible instruction pointers:
+
+ 5  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0b42ff90   ebp = 0x0b42ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b42ff90 1c b0 0b 0b d4 ff 42 0b 12 98 2e 77              ......B....w    
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0b42ff9c   ebp = 0x0b42ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b42ff9c 1c b0 0b 0b de 50 41 7a 00 00 00 00 00 00 00 00  .....PAz........
+     0b42ffac 1c b0 0b 0b 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b42ffbc a0 ff 42 0b 00 00 00 00 ff ff ff ff cd 4d 32 77  ..B..........M2w
+     0b42ffcc 7a 69 2e 06 00 00 00 00 ec ff 42 0b e5 97 2e 77  zi........B....w
+    Possible instruction pointers:
+
+ 7  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0b42ffdc   ebp = 0x0b42ffec
+    Found by: previous frame's frame pointer
+
+Thread 24
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x0b56fdb4   ebp = 0x0b56fe50   ebx = 0x0b56fe04
+    esi = 0x00000002   edi = 0x00000000   eax = 0x00000470   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0b56fdb4 5d 01 2d 77 75 17 e7 74 02 00 00 00 04 fe 56 0b  ].-wu..t......V.
+     0b56fdc4 01 00 00 00 00 00 00 00 00 00 00 00 b0 2b 47 fe  .............+G.
+     0b56fdd4 02 00 00 00 7c fe 56 0b 78 fe 56 0b 24 00 00 00  ....|.V.x.V.$...
+     0b56fde4 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b56fdf4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b56fe04 60 04 00 00 70 04 00 00 84 fe 56 0b 94 fe 56 0b  `...p.....V...V.
+     0b56fe14 04 fe 56 0b 00 00 00 00 7c fe 56 0b 9e aa c2 74  ..V.....|.V....t
+     0b56fe24 ec 30 b5 81 fe ff ff ff cb 80 bc 74 02 00 00 00  .0.........t....
+     0b56fe34 00 00 00 00 d0 fd 56 0b 18 00 00 00 78 ff 56 0b  ......V.....x.V.
+     0b56fe44 50 74 e9 74 f8 58 f8 81 00 00 00 00 98 fe 56 0b  Pt.t.X........V.
+     0b56fe54 fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x0b56fe58   ebp = 0x0b56fe98
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b56fe58 04 fe 56 0b 78 fe 56 0b 00 00 00 00 ff ff ff ff  ..V.x.V.........
+     0b56fe68 00 00 00 00 02 00 00 00 00 00 00 00 c0 fe 56 0b  ..............V.
+     0b56fe78 60 04 00 00 70 04 00 00 70 00 2c 77 00 00 03 00  `...p...p.,w....
+     0b56fe88 01 00 00 00 00 09 21 65 7d 5d 31 77 00 00 00 00  ......!e}]1w....
+     0b56fe98 ec fe 56 0b b2 08 bd 74                          ..V....t        
+    Possible instruction pointers:
+
+ 2  user32.dll + 0x208b2
+    eip = 0x74bd08b2   esp = 0x0b56fea0   ebp = 0x0b56feec
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b56fea0 02 00 00 00 00 e0 fd 7e 00 00 00 00 ff ff ff ff  .......~........
+     0b56feb0 00 00 00 00 ff ff ff ff 70 a9 ce 09 00 00 00 00  ........p.......
+     0b56fec0 60 04 00 00 70 04 00 00 00 00 00 00 01 00 00 00  `...p...........
+     0b56fed0 01 00 00 00 00 e8 f5 7e 00 00 00 00 08 ff 56 0b  .......~......V.
+     0b56fee0 a7 b9 bd 74 00 00 00 00 00 00 00 00 08 ff 56 0b  ...t..........V.
+     0b56fef0 b1 0b bd 74                                      ...t            
+    Possible instruction pointers:
+
+ 3  user32.dll + 0x20bb1
+    eip = 0x74bd0bb1   esp = 0x0b56fef4   ebp = 0x0b56ff08
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b56fef4 70 04 00 00 a0 ad ce 09 ff ff ff ff bf 00 00 00  p...............
+     0b56ff04 00 00 00 00 3f b8 bd 74 24 48 00 10              ....?..t$H..    
+    Possible instruction pointers:
+
+ 4  KSndStr.dll + 0x4824
+    eip = 0x10004824   esp = 0x0b56ff10   ebp = 0x74bdb83f
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b56ff10 01 00 00 00 a0 ad ce 09 00 00 00 00 ff ff ff ff  ................
+     0b56ff20 bf 00 00 00 00 00 00 00 50 84 f7 02 88 ff 56 0b  ........P.....V.
+     0b56ff30 c0 83 f7 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0b56ff40 01 80 00 00 01 00 00 00 00 00 00 00 8e a8 38 06  ..............8.
+    Possible instruction pointers:
+
+ 5  mb.dll + 0x106a88e
+    eip = 0x0638a88e   esp = 0x0b56ff50   ebp = 0x74bdb83f
+    Found by: stack scanning
+
+    Stack contents:
+     0b56ff50 eb 04 00 00 7b 03 00 00 c8 43 01 10              ....{....C..    
+    Possible instruction pointers:
+
+ 6  KSndStr.dll + 0x143c8
+    eip = 0x100143c8   esp = 0x0b56ff5c   ebp = 0x74bdb83f
+    Found by: stack scanning
+
+    Stack contents:
+     0b56ff5c ff ff ff ff 00 00 00 00 00 00 00 00 c0 83 f7 02  ................
+     0b56ff6c 00 00 00 00 60 ff 56 0b 00 00 00 00 c4 ff 56 0b  ....`.V.......V.
+     0b56ff7c b4 c0 01 10                                      ....            
+    Possible instruction pointers:
+
+ 7  KSndStr.dll + 0x1c0b4
+    eip = 0x1001c0b4   esp = 0x0b56ff80   ebp = 0x0b56ffc4
+    Found by: stack scanning
+
+    Stack contents:
+     0b56ff80 20 13 02 10 00 00 00 00 94 ff 56 0b 3d 34 2a 76   .........V.=4*v
+     0b56ff90 c0 83 f7 02 d4 ff 56 0b 12 98 2e 77 c0 83 f7 02  ......V....w....
+     0b56ffa0 de 50 55 7a 00 00 00 00 00 00 00 00 c0 83 f7 02  .PUz............
+     0b56ffb0 00 00 00 00 00 00 00 00 00 00 00 00 a0 ff 56 0b  ..............V.
+     0b56ffc0 00 00 00 00 ff ff ff ff cd 4d 32 77              .........M2w    
+    Possible instruction pointers:
+
+ 8  ntdll.dll + 0x74dcd
+    eip = 0x77324dcd   esp = 0x0b56ffcc   ebp = 0xffffffff
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0b56ffcc 7a 69 2e 06                                      zi..            
+    Possible instruction pointers:
+
+ 9  mb.dll + 0xfc697a
+    eip = 0x062e697a   esp = 0x0b56ffd0   ebp = 0xffffffff
+    Found by: stack scanning
+
+    Stack contents:
+     0b56ffd0 00 00 00 00 ec ff 56 0b e5 97 2e 77              ......V....w    
+    Possible instruction pointers:
+
+10  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0b56ffdc   ebp = 0x0b56ffec
+    Found by: stack scanning
+
+Thread 25
+ 0  ntdll.dll + 0x1f8d1
+    eip = 0x772cf8d1   esp = 0x0bb3fe94   ebp = 0x0bb3ff00   ebx = 0x00000000
+    esi = 0x00000488   edi = 0x00000000   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0bb3fe94 d1 f8 2c 77 29 16 e7 74 88 04 00 00 00 00 00 00  ..,w)..t........
+     0bb3fea4 00 00 00 00 e0 2a a2 fe 00 00 00 00 88 04 00 00  .....*..........
+     0bb3feb4 c0 83 f7 02 24 00 00 00 01 00 00 00 00 00 00 00  ....$...........
+     0bb3fec4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bb3fed4 00 00 00 00 00 00 00 00 a0 01 00 00 80 06 00 00  ................
+     0bb3fee4 00 00 00 00 a8 fe b3 0b 04 00 00 00 78 ff b3 0b  ............x...
+     0bb3fef4 50 74 e9 74 18 59 f8 81 00 00 00 00 18 ff b3 0b  Pt.t.Y..........
+     0bb3ff04 94 11 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x11194
+    eip = 0x762a1194   esp = 0x0bb3ff08   ebp = 0x0bb3ff18
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bb3ff08 88 04 00 00 ff ff ff ff 00 00 00 00 ac a9 ce 09  ................
+     0bb3ff18 2c ff b3 0b 48 11 2a 76                          ,...H.*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x11148
+    eip = 0x762a1148   esp = 0x0bb3ff20   ebp = 0x0bb3ff2c
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bb3ff20 88 04 00 00 ff ff ff ff 00 00 00 00 88 ff b3 0b  ................
+     0bb3ff30 a4 2a 00 10                                      .*..            
+    Possible instruction pointers:
+
+ 3  KSndStr.dll + 0x2aa4
+    eip = 0x10002aa4   esp = 0x0bb3ff34   ebp = 0x0bb3ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bb3ff34 88 04 00 00 ff ff ff ff 00 00 00 00 ac a9 ce 09  ................
+     0bb3ff44 88 ff b3 0b 80 06 00 00 00 00 00 00 ec 2b 00 10  .............+..
+     0bb3ff54 e0 84 f7 02 c8 43 01 10 ac a9 ce 09 00 00 00 00  .....C..........
+     0bb3ff64 00 00 00 00 c0 83 f7 02 00 00 00 00 60 ff b3 0b  ............`...
+     0bb3ff74 00 00 00 00 c4 ff b3 0b b4 c0 01 10 20 13 02 10  ............ ...
+     0bb3ff84 00 00 00 00 94 ff b3 0b 3d 34 2a 76              ........=4*v    
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0bb3ff90   ebp = 0x0bb3ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bb3ff90 c0 83 f7 02 d4 ff b3 0b 12 98 2e 77              ...........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0bb3ff9c   ebp = 0x0bb3ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bb3ff9c c0 83 f7 02 de 50 b0 7a 00 00 00 00 00 00 00 00  .....P.z........
+     0bb3ffac c0 83 f7 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bb3ffbc a0 ff b3 0b 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0bb3ffcc 7a 69 2e 06 00 00 00 00 ec ff b3 0b e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0bb3ffdc   ebp = 0x0bb3ffec
+    Found by: previous frame's frame pointer
+
+Thread 26
+ 0  ntdll.dll + 0x2015d
+    eip = 0x772d015d   esp = 0x0bc7fdc8   ebp = 0x0bc7fe64   ebx = 0x0bc7fe18
+    esi = 0x00000003   edi = 0x0bc7fe38   eax = 0x10014359   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000246
+    Found by: given as instruction pointer in context
+
+    Stack contents:
+     0bc7fdc8 5d 01 2d 77 75 17 e7 74 03 00 00 00 18 fe c7 0b  ].-wu..t........
+     0bc7fdd8 01 00 00 00 00 00 00 00 38 fe c7 0b 84 2b d6 fe  ........8....+..
+     0bc7fde8 03 00 00 00 94 fe c7 0b 8c fe c7 0b 24 00 00 00  ............$...
+     0bc7fdf8 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7fe08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7fe18 90 04 00 00 94 04 00 00 98 04 00 00 54 fe c7 0b  ............T...
+     0bc7fe28 ac 45 81 74 40 fe c7 0b 04 00 00 00 00 00 00 00  .E.t@...........
+     0bc7fe38 60 da d9 ff ff ff ff ff 70 2d 16 0b 03 00 00 00  `.......p-......
+     0bc7fe48 00 00 00 00 e4 fd c7 0b 00 00 00 00 78 ff c7 0b  ............x...
+     0bc7fe58 50 74 e9 74 f8 58 f8 81 00 00 00 00 ac fe c7 0b  Pt.t.X..........
+     0bc7fe68 fc 19 2a 76                                      ..*v            
+    Possible instruction pointers:
+
+ 1  kernel32.dll + 0x119fc
+    eip = 0x762a19fc   esp = 0x0bc7fe6c   ebp = 0x0bc7feac
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bc7fe6c 18 fe c7 0b 8c fe c7 0b 00 00 00 00 fa 00 00 00  ................
+     0bc7fe7c 00 00 00 00 0c aa ce 09 00 00 00 00 00 00 00 00  ................
+     0bc7fe8c 90 04 00 00 94 04 00 00 98 04 00 00 d0 89 00 00  ................
+     0bc7fe9c 8a 14 00 10 e0 dd 2e 01 d4 fe c7 0b d8 fe c7 0b  ................
+     0bc7feac c8 fe c7 0b 8c 26 2a 76                          .....&*v        
+    Possible instruction pointers:
+
+ 2  kernel32.dll + 0x1268c
+    eip = 0x762a268c   esp = 0x0bc7feb4   ebp = 0x0bc7fec8
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bc7feb4 03 00 00 00 00 e0 fd 7e 00 00 00 00 fa 00 00 00  .......~........
+     0bc7fec4 00 00 00 00 88 ff c7 0b 8d 19 00 10              ............    
+    Possible instruction pointers:
+
+ 3  KSndStr.dll + 0x198d
+    eip = 0x1000198d   esp = 0x0bc7fed0   ebp = 0x0bc7ff88
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bc7fed0 03 00 00 00 30 aa ce 09 00 00 00 00 fa 00 00 00  ....0...........
+     0bc7fee0 00 00 00 00 0c aa ce 09 88 ff c7 0b c0 83 f7 02  ................
+     0bc7fef0 60 00 00 00 1f 0f 00 00 64 00 00 00 40 0d 03 00  `.......d...@...
+     0bc7ff00 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00  ................
+     0bc7ff10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7ff20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7ff30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7ff40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7ff50 ac 1a 00 10 70 85 f7 02 c8 43 01 10 0c aa ce 09  ....p....C......
+     0bc7ff60 00 00 00 00 00 00 00 00 c0 83 f7 02 00 00 00 00  ................
+     0bc7ff70 60 ff c7 0b 00 00 00 00 c4 ff c7 0b b4 c0 01 10  `...............
+     0bc7ff80 20 13 02 10 00 00 00 00 94 ff c7 0b 3d 34 2a 76   ...........=4*v
+    Possible instruction pointers:
+
+ 4  kernel32.dll + 0x1343d
+    eip = 0x762a343d   esp = 0x0bc7ff90   ebp = 0x0bc7ff94
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bc7ff90 c0 83 f7 02 d4 ff c7 0b 12 98 2e 77              ...........w    
+    Possible instruction pointers:
+
+ 5  ntdll.dll + 0x39812
+    eip = 0x772e9812   esp = 0x0bc7ff9c   ebp = 0x0bc7ffd4
+    Found by: previous frame's frame pointer
+
+    Stack contents:
+     0bc7ff9c c0 83 f7 02 de 50 c4 7a 00 00 00 00 00 00 00 00  .....P.z........
+     0bc7ffac c0 83 f7 02 00 00 00 00 00 00 00 00 00 00 00 00  ................
+     0bc7ffbc a0 ff c7 0b 00 00 00 00 ff ff ff ff cd 4d 32 77  .............M2w
+     0bc7ffcc 7a 69 2e 06 00 00 00 00 ec ff c7 0b e5 97 2e 77  zi.............w
+    Possible instruction pointers:
+
+ 6  ntdll.dll + 0x397e5
+    eip = 0x772e97e5   esp = 0x0bc7ffdc   ebp = 0x0bc7ffec
+    Found by: previous frame's frame pointer
+
+Loaded modules:
+0x00020000 - 0x0003dfff  koeids.dll  1.2.1.0  (WARNING: No symbols, , )
+0x00400000 - 0x012b7fff  Taikou5.exe  1.1.0.0  (main)  (WARNING: No symbols, , )
+0x05320000 - 0x06447fff  mb.dll  2021.11.8.0  (WARNING: No symbols, miniblink.pdb, 462A78A83C904510BBC57778E3099D5E2)
+0x0fd10000 - 0x0fff9fff  tkhack.dll  2.1.2.2
+0x10000000 - 0x10033fff  KSndStr.dll  1.0.1.2  (WARNING: No symbols, , )
+0x494e0000 - 0x494e6fff  trayit4!.dll  4.6.4.1  (WARNING: No symbols, , )
+0x651f0000 - 0x65282fff  TaobaoProtectSE.dll  2.4.2.5
+0x67f20000 - 0x67f3ffff  nvdxgiwrap.dll  25.21.14.1735
+0x67f40000 - 0x67f70fff  nvd3d9wrap.dll  25.21.14.1735
+0x67f80000 - 0x67f85fff  detoured.dll  ???
+0x68d70000 - 0x68da5fff  AudioSes.dll  6.1.7601.24523
+0x68db0000 - 0x68db6fff  avrt.dll  6.1.7600.16385
+0x68e00000 - 0x68ef4fff  propsys.dll  7.0.7601.17514
+0x68f00000 - 0x68f38fff  MMDevAPI.dll  6.1.7601.17514  (WARNING: No symbols, MMDevAPI.pdb, 941E45A63E8F457D90CE29CC508C34B92)
+0x6dfd0000 - 0x6e035fff  msvcp60.dll  7.0.7600.16385
+0x6fa70000 - 0x6fa81fff  Vstart32.dll  5.1.2600.5512  (WARNING: No symbols, , )
+0x70500000 - 0x70692fff  GdiPlus.dll  6.1.7601.24542  (WARNING: No symbols, MicrosoftWindowsGdiPlus-1.1.7601.24542-gdiplus.pdb, 64C7A8F85EAF46E2B87021631AB613561)
+0x706a0000 - 0x706dbfff  oleacc.dll  7.0.0.0
+0x70740000 - 0x707c3fff  comctl32.dll  5.82.7601.18837
+0x70850000 - 0x70878fff  nvinit.dll  25.21.14.1735
+0x70880000 - 0x70a1dfff  comctl32.dll  6.10.7601.24483
+0x73380000 - 0x7346afff  dbghelp.dll  6.1.7601.17514
+0x73960000 - 0x73964fff  msimg32.dll  6.1.7601.24535
+0x73a60000 - 0x73a80fff  ntmarta.dll  6.1.7600.16385
+0x740f0000 - 0x740f6fff  minhook.dll  1.3.3.0  (WARNING: No symbols, , )
+0x741f0000 - 0x741f8fff  version.dll  6.1.7600.16385
+0x742d0000 - 0x742dcfff  sfc_os.dll  6.1.7600.16385
+0x742e0000 - 0x742e2fff  sfc.dll  6.1.7600.16385
+0x74530000 - 0x7453bfff  CRYPTBASE.dll  6.1.7601.24545
+0x74540000 - 0x7459ffff  sspicli.dll  6.1.7601.24545
+0x745a0000 - 0x745a2fff  normaliz.dll  6.1.7600.16385
+0x745b0000 - 0x74641fff  oleaut32.dll  6.1.7601.24537
+0x746e0000 - 0x7477cfff  usp10.dll  1.626.7601.24535
+0x74780000 - 0x74785fff  nsi.dll  6.1.7601.23889
+0x74790000 - 0x74793fff  api-ms-win-downlevel-shlwapi-l1-1-0.dll  6.2.9200.16492
+0x747a0000 - 0x747fffff  imm32.dll  6.1.7601.17514
+0x74810000 - 0x74881fff  dsound.dll  6.1.7600.16385  (WARNING: No symbols, dsound.pdb, F38F478065E247C68EDA699606F56EED2)
+0x74890000 - 0x7495dfff  msctf.dll  6.1.7601.24520
+0x74960000 - 0x74963fff  api-ms-win-downlevel-version-l1-1-0.dll  6.2.9200.16492
+0x74970000 - 0x74b0cfff  setupapi.dll  6.1.7601.17514
+0x74b10000 - 0x74b66fff  shlwapi.dll  6.1.7601.17514
+0x74b70000 - 0x74ba1fff  winmm.dll  6.1.7601.17514
+0x74bb0000 - 0x74caffff  user32.dll  6.1.7601.24545  (WARNING: No symbols, wuser32.pdb, 16CD529B197F41A08D827021FD67DB1E2)
+0x74d10000 - 0x74d14fff  api-ms-win-downlevel-advapi32-l1-1-0.dll  6.2.9200.16492
+0x74d20000 - 0x74dcbfff  msvcrt.dll  7.0.7601.17744
+0x74dd0000 - 0x74e5ffff  gdi32.dll  6.1.7601.24540
+0x74e60000 - 0x74ea6fff  KERNELBASE.dll  6.1.7601.24545  (WARNING: No symbols, wkernelbase.pdb, CFEA423CF1C147D79C9176F48B6B0EE01)
+0x74eb0000 - 0x7500efff  ole32.dll  6.1.7601.24537
+0x75010000 - 0x750b0fff  advapi32.dll  6.1.7601.24545
+0x750c0000 - 0x75142fff  clbcatq.dll  2001.12.8530.16385
+0x75150000 - 0x75168fff  sechost.dll  6.1.7600.16385
+0x75170000 - 0x7525ffff  rpcrt4.dll  6.1.7601.24545
+0x753a0000 - 0x75febfff  shell32.dll  6.1.7601.24468
+0x75ff0000 - 0x76024fff  ws2_32.dll  6.1.7601.23451
+0x76190000 - 0x761d4fff  Wldap32.dll  6.1.7601.23889
+0x761e0000 - 0x761e3fff  api-ms-win-downlevel-user32-l1-1-0.dll  6.2.9200.16492
+0x76220000 - 0x7622bfff  msasn1.dll  6.1.7601.17514
+0x76230000 - 0x76234fff  psapi.dll  6.1.7600.16385
+0x76240000 - 0x76251fff  devobj.dll  6.1.7601.17621
+0x76290000 - 0x7639ffff  kernel32.dll  6.1.7601.24545  (WARNING: No symbols, wkernel32.pdb, B91340B043A34C5EAEE3C21EDC192CF62)
+0x763a0000 - 0x763b8fff  userenv.dll  6.1.7601.24535
+0x763c0000 - 0x765f7fff  iertutil.dll  11.0.9600.19597
+0x76620000 - 0x76741fff  crypt32.dll  6.1.7601.24542
+0x76750000 - 0x76774fff  powrprof.dll  6.1.7600.16385
+0x76870000 - 0x76872fff  api-ms-win-downlevel-normaliz-l1-1-0.dll  6.2.9200.16492
+0x76880000 - 0x768a6fff  cfgmgr32.dll  6.1.7601.17621
+0x768b0000 - 0x76ce6fff  wininet.dll  11.0.9600.19597
+0x76cf0000 - 0x76cf9fff  lpk.dll  6.1.7601.24537
+0x76d00000 - 0x76d7afff  comdlg32.dll  6.1.7601.17514
+0x76d80000 - 0x76d8afff  profapi.dll  6.1.7600.16385
+0x772b0000 - 0x7742ffff  ntdll.dll  6.1.7601.24545  (WARNING: No symbols, wntdll.pdb, 87ED74E423E5456E933FB5DD7B40019D2)

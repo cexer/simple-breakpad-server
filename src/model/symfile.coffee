@@ -107,8 +107,9 @@ Symfile.createFromRequest = (req, res, callback) ->
         throw new Error 'Form must include a "symfile" field'
 
       contents = props.symfile
-      header = contents.split('\n')[0].match(/^(MODULE) ([^ ]+) ([^ ]+) ([0-9A-F]+) (.*)/)
+      firstLine = contents.split('\n')[0]
 
+      header = firstLine.match(/^(MODULE) ([^ ]+) ([^ ]+) ([^ ]+) (.*)/)
       [line, dec, os, arch, code, name] = header
 
       if dec != 'MODULE'

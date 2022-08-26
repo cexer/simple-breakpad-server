@@ -1,0 +1,1 @@
+minidump_stackwalk.exe -s test_dump64.dmp ./symbols > test_dump64.txt
